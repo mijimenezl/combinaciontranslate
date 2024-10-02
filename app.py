@@ -45,7 +45,7 @@ remove_files(7)
 
 
 st.title("Reconocimiento óptico de caracteres")
-st.subheader("Elige la fuente de la imágen, esta puede venir de la cámara o cargando un archivo")
+st.subheader("Elige la fuente de la imágen puede ser de la cámara o cargando un archivo")
 image = Image.open('combinacion.jpg')
 st.image(image, width=500)
 
