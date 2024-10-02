@@ -44,8 +44,12 @@ remove_files(7)
 
 
 
-st.title("Reconocimiento Óptico de Caracteres")
+st.title("Reconocimiento óptico de caracteres")
 st.subheader("Elige la fuente de la imágen, esta puede venir de la cámara o cargando un archivo")
+image = Image.open('The Dark Lord.png')
+st.image(image, width=500)
+
+
 
 
 
