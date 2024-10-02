@@ -9,6 +9,7 @@ import pytesseract
 from PIL import Image
 from gtts import gTTS
 from googletrans import Translator
+from PIL import Image
 
 
 text=" "
@@ -45,6 +46,11 @@ remove_files(7)
 
 st.title("Reconocimiento Óptico de Caracteres")
 st.subheader("Elige la fuente de la imágen, esta puede venir de la cámara o cargando un archivo")
+
+image = Image.open('imgtranrec.jpg')
+
+st.image(image, width=500)
+
 
 cam_ = st.checkbox("Usar Cámara")
 
